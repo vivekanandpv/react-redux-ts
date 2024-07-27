@@ -2,6 +2,7 @@ import { applyMiddleware, configureStore } from '@reduxjs/toolkit';
 import { counterSlice } from './counter.slice';
 import { User, userSlice } from './user.slice';
 import reduxLogger from 'redux-logger';
+import { appLogger } from './custom.middleware';
 
 export interface AppState {
   counter: number;

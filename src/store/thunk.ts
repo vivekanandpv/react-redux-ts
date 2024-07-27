@@ -8,7 +8,7 @@ const dummyApiProvider = (username: string) => {
         username,
         country: 'germany',
       });
-    }, 1000);
+    }, 5000);
   });
 };
 
